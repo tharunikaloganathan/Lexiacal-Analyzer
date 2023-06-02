@@ -4,7 +4,7 @@
 
 //void scaner();
 int letter(char);
-int digit(char);
+int dig(char);
 
 
 char prog[80], token[8];
@@ -35,7 +35,7 @@ int main(int argc, char const *argv[])
 	if (letter(ch))
 	{
 		m = 0;
-		while(letter(ch) || digit(ch))
+		while(letter(ch) || dig(ch))
 		{
 			token[m] = ch;
 			m++;
