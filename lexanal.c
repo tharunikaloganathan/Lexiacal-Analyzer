@@ -6,6 +6,7 @@
 int letter(char);
 int dig(char);
 
+//function definition
 
 char prog[80], token[8];
 char ch;
